@@ -50,8 +50,8 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      primary: true,
       appBar: EmptyAppBar(),
+      // backgroundColor: Color.fromARGB(255, 53, 19, 19),
       body: _buildBody(),
     );
   }
@@ -113,7 +113,7 @@ class _LoginScreenState extends State<LoginScreen> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            AppIconWidget(image: 'assets/icons/ic_appicon.png'),
+            AppIconWidget(image: 'assets/icons/emlkuezq.png'),
             SizedBox(height: 24.0),
             _buildUserIdField(),
             _buildPasswordField(),
